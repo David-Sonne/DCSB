@@ -79,6 +79,16 @@
                                  Margin="2"
                                  Command="{Binding RemoveSoundCommand}"
                                  ToolTip="Remove Sound" />
+            <Controls:IconButton DockPanel.Dock="Left" 
+                                 Content="{DynamicResource UpArrowIcon }"
+                                 Margin="2"
+                                 Command="{Binding RemoveSoundCommand}"
+                                 ToolTip="Remove Sound" />
+            <Controls:IconButton DockPanel.Dock="Left" 
+                                 Content="{DynamicResource DownArrowIcon}" 
+                                 Margin="2"
+                                 Command="{Binding RemoveSoundCommand}"
+                                 ToolTip="Remove Sound" />
             <Controls:IconButton DockPanel.Dock="Right" 
                                  Content="{StaticResource PlayIcon}" 
                                  Margin="2"

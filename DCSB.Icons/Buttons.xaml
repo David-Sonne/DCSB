@@ -49,5 +49,25 @@
 
     <Path x:Shared="False" x:Key="LeftArrowIcon" Fill="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" 
           Stretch="Uniform" Data="M20,9V15H12V19.84L4.16,12L12,4.16V9H20Z" />
-    
+
+    <Path x:Shared="False" x:Key="UpArrowIcon" Fill="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" 
+          Stretch="Uniform"  >
+        <Path.Data>
+            <StreamGeometry>M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z</StreamGeometry>
+        </Path.Data>
+        <Path.LayoutTransform>
+            <RotateTransform Angle="-90"/>
+        </Path.LayoutTransform>
+    </Path>
+
+    <Path x:Shared="False" x:Key="DownArrowIcon" Fill="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" 
+          Stretch="Uniform"  >
+        <Path.Data>
+            <StreamGeometry>M20,9V15H12V19.84L4.16,12L12,4.16V9H20Z</StreamGeometry>
+        </Path.Data>
+        <Path.LayoutTransform>
+            <RotateTransform Angle="-90"/>
+        </Path.LayoutTransform>
+    </Path>
+
 </ResourceDictionary>
